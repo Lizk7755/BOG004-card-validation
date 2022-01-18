@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preload" href="style.css" rel="stylesheet">
   </head>
   <body>
+    <img src="img/hojas.png"> 
     <!--ingreso barra de navegación-->
     <nav> 
       <a href="#">Inicio</a>
@@ -14,20 +16,25 @@
       <a href="#">Contactos</a>
      </nav>
      <!--Ventana principal-->
+  
   <div>
     <header>
       <h1>Dulcita de Oro</h1>
       <h2>Sabor infinito</h2>
+      <img src="img/imagen principal.png"> 
     </header>
     <main>
       <section>
         <h3>Productos Dulcitos</h3>
+        <img src="img/productos.png"> 
       </section>
       <section>
         <h3>Puntos de Venta</h3>
+        <img src="img/puntos de venta.png"> 
       </section>
       <section>
         <h3>Panal de Pagos</h3>
+        <img src="img/pagos.png"> 
       </section>
     </main>
   </div>
@@ -58,33 +65,70 @@
     <section>
       <button type="button" id="Pagos" name="Panaldepagos">Panal de Pagos</button>
     </section>
+    <input type="submit" value="Pagina principal">
   </div>
 
   <div>
     <h2>Puntos de venta</h2>
     <section>
       <p>Bogotá</p>
+      <img src="img/tienda.png"> 
     </section>
     <section>
       <p>Armenia</p>
+      <img src="img/tienda.png"> 
     </section>
     <section>
       <p>Pasto</p>
+      <img src="img/tienda.png"> 
     </section>
    <section>
      <p>Medellín</p>
+     <img src="img/tienda.png"> 
     </section> 
-    <Section>
+    <section>
       <p>Cali</p>
-    </Section>
+      <img src="img/tienda.png"> 
+    </section>
+    <input type="submit" value="Pagina principal">
   </div>
 
-  <div>
+  <section>
+  
     <h2>Panal de pagos</h2>
     <Form>
-      
+      <fieldset>
+        <legend>Por favor ingresa los siguientes datos</legend>
+      <div>
+        <label> E-mail</label>
+        <input type="email" placeholder="Ingresa tu e-mail">
+      </div>
+
+      <div>
+        <label> Nombre completo</label>
+        <input type="text" placeholder="Nombre y apellidos">
+      </div>
+
+      <div>
+        <label> Documento de identidad</label>
+        <input type="text" placeholder="Documento de identidad">
+      </div>
+
+      <div>
+        <label> Telefono de contacto</label>
+        <input type="tel" placeholder="Telefono/movil">
+      </div>
+
+      <div>
+        <input type="submit" value="Siguiente">
+      </div>
+        
+      </fieldset>
     </Form>
-  </div>
+  
+    <input type="submit" value="Pagina principal">
+</section>
+
     <!--Me faltan los iconos de face, whatsapp etc.-->
     <footer>
       © COPYRIGHT 2022 Dulcita de Oro. TODOS LOS DERECHOS RESERVADOS.
