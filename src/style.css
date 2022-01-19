@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  width: 100px;
+}
+
+body{
+  background-image: url("img/hojas.png");
+  background-size: 100% 30%;
+  background-position: 0 -6rem;
+  background-repeat: no-repeat;
+  
+}
+
+.contenedor {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  
+}
+
+.nav-bg{
+  background-color: rgba(221, 177, 65, 0.6);
+  opacity: 0.8;
+}
+
+.navegacion-principal {
+ display:flex;
+ justify-content: space-evenly;
+ 
+}
+
+.navegacion-principal a{
+  color: rgb(27, 40, 51);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+
+ .navegacion-principal a:hover{
+  background-color: rgb(240, 129, 3);
+  border: none;
+ }
+
+ 
