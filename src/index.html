@@ -1,81 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preload" href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <img src="img/hojas.png"> 
-    <!--ingreso barra de navegación-->
-    <nav> 
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--ingreso barra de navegación-->
+
+  <div class="nav-bg">
+    <nav class="navegacion-principal contenedor">
       <a href="#">Inicio</a>
       <a href="#">Nosotros</a>
       <a href="#">Clientes</a>
       <a href="#">Contactos</a>
-     </nav>
-     <!--Ventana principal-->
-  
+    </nav>
+  </div>
+
+  <!--Ventana principal-->
+
   <div>
     <header>
       <h1>Dulcita de Oro</h1>
       <h2>Sabor infinito</h2>
-      <img src="img/imagen principal.png"> 
+      <img src="img/imagen principal.png">
     </header>
     <main>
       <section>
-        <h3>Productos Dulcitos</h3>
-        <img src="img/productos.png"> 
+        <div>
+          <a href="#"><span>Productos Dulcitos</span> <span><img src="img/productos.png"></span></a>
+        </div>
       </section>
       <section>
-        <h3>Puntos de Venta</h3>
-        <img src="img/puntos de venta.png"> 
+        <div>
+          <a href="#"><span>Puntos de venta</span> <span><img src="img/puntos de venta.png"></span></a>
+        </div>
       </section>
       <section>
-        <h3>Panal de Pagos</h3>
-        <img src="img/pagos.png"> 
+        <div>
+          <a href="#"><span>Panal de pagos</span><span><img src="img/pagos.png"></span> </a>
+        </div>
       </section>
     </main>
   </div>
 
   <div>
 
-    <img src="img/abeja (1).png">  
+    <img src="img/abeja (1).png">
     <h2>Productos Dulcitos</h2>
-      
+
     <section>
-        <p>Miel de abejas 500 g</p>
-        <img src="img/kisspng-marmalade-honey-jar-stock-photography-royalty-free-5b06d5c23fb837.071006701527174594261.png">
-        <img src="img/cera-de-abejas.png">
-        <button type="button" id="Valor1" name="PrecioMiel">$ 30.000</button>
+      <p>Miel de abejas 500 g</p>
+      <img
+        src="img/kisspng-marmalade-honey-jar-stock-photography-royalty-free-5b06d5c23fb837.071006701527174594261.png">
+      <img src="img/cera-de-abejas.png">
+      <button type="button" id="Valor1" name="PrecioMiel">$ 30.000</button>
     </section>
 
-    <section> 
+    <section>
       <p>Jalea Real 20 g</p>
       <img src="img/kisspng-royal-jelly-jar-glass-royal-jelly-jars-yard-5a8ffc6209b726.6470615415193856980398.png">
       <img src="img/cera-de-abejas.png">
       <button type="button" id="Valor2" name="PrecioJalea">$ 40.000</button>
     </section>
 
-    <section> 
+    <section>
       <p>Polen 200 g</p>
       <img src="img/kisspng-honey-bee-logo-european-dark-bee-5af6cb587a5b65.7478858615261233525012.png">
       <img src="img/cera-de-abejas.png">
       <button type="button" id="Valor3" name="PrecioPolen">$ 20.000</button>
     </section>
 
-    <section> 
+    <section>
       <p>Cereal con Miel 1000 g</p>
-      <img src="img/kisspng-breakfast-cereal-corn-flakes-frosted-flakes-muesli-cereal-5abca53f43f5d3.1427623715223125112784.png">
+      <img
+        src="img/kisspng-breakfast-cereal-corn-flakes-frosted-flakes-muesli-cereal-5abca53f43f5d3.1427623715223125112784.png">
       <img src="img/cera-de-abejas.png">
       <button type="button" id="Valor4" name="PrecioCereal">$ 25.000</button>
     </section>
 
-    <section> 
+    <section>
       <button type="button" id="Carrito" name="Carrito">Añadir al Carrito</button>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44"
+        viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
         <circle cx="6" cy="19" r="2" />
         <circle cx="17" cy="19" r="2" />
         <path d="M17 17h-11v-14h-2" />
@@ -92,98 +105,130 @@
     <h2>Puntos de venta</h2>
     <section>
       <p>Bogotá</p>
-      <img src="img/tienda.png"> 
+      <img src="img/tienda.png">
     </section>
     <section>
       <p>Armenia</p>
-      <img src="img/tienda.png"> 
+      <img src="img/tienda.png">
     </section>
     <section>
       <p>Pasto</p>
-      <img src="img/tienda.png"> 
+      <img src="img/tienda.png">
     </section>
-   <section>
-     <p>Medellín</p>
-     <img src="img/tienda.png"> 
-    </section> 
+    <section>
+      <p>Medellín</p>
+      <img src="img/tienda.png">
+    </section>
     <section>
       <p>Cali</p>
-      <img src="img/tienda.png"> 
+      <img src="img/tienda.png">
     </section>
     <input type="submit" value="Pagina principal">
   </div>
 
   <section>
     <h2>Panal de pagos</h2>
-  <form>
+    <form>
 
-    <fieldset>
-      <legend>Por favor ingresa los siguientes datos</legend>
-    <div>
-      <label> E-mail</label>
-      <input type="email" placeholder="Ingresa tu e-mail">
-    </div>
+      <fieldset>
+        <legend>Por favor ingresa los siguientes datos</legend>
+        <div>
+          <label> E-mail</label>
+          <input type="email" placeholder="Ingresa tu e-mail">
+        </div>
 
-    <div>
-      <label> Nombre completo</label>
-      <input type="text" placeholder="Nombre y apellidos">
-    </div>
+        <div>
+          <label> Nombre completo</label>
+          <input type="text" placeholder="Nombre y apellidos">
+        </div>
 
-    <div>
-      <label> Documento de identidad</label>
-      <input type="text" placeholder="Documento de identidad">
-    </div>
+        <div>
+          <label> Documento de identidad</label>
+          <input type="text" placeholder="Documento de identidad">
+        </div>
 
-    <div>
-      <label> Telefono de contacto</label>
-      <input type="tel" placeholder="Telefono/movil">
-    </div>
+        <div>
+          <label> Telefono de contacto</label>
+          <input type="tel" placeholder="Telefono/movil">
+        </div>
 
-    <div>
-      <input type="submit" value="Siguiente">
-    </div>
-      
-    </fieldset>
-  </Form>
+        <div>
+          <input type="submit" value="Siguiente">
+        </div>
+
+      </fieldset>
+    </Form>
     <div>
       <input type="submit" value="Pagina principal">
     </div>
   </section>
 
   <section>
-  
+
     <h2>Panal de pagos</h2>
     <Form>
 
     </Form>
-  </div>
-  <div>
-    <h2>Panal de pagos</h2>
-    <img src="img/abeja.png">
-    <h3>Validemos tu tarjeta de credito</h3>
-    <img src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png">
-    <img src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png">
-    <section>
-      <Form> 
-      <legend>Ingresa el número de tu tarjeta de credito</legend>
-      <div>
-        <input type="number" placeholder="Ingresa los 16 digitos de tu TC">
-      </div>
-      <div>
-        <button type="button" id="Siguientevalidar" name="Siguientevalidar">Siguiente</button>
-      </div>
-      <div>
-      <button type="button" id="Paginaprincipal" name="Paginaprincipal">Página principal</button>
     </div>
-    </Form>
-    </section>
+    <div>
+      <h2>Panal de pagos</h2>
+      <img src="img/abeja.png">
+      <h3>Validemos tu tarjeta de credito</h3>
+      <img
+        src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png">
+      <img
+        src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png">
+      <section>
+        <Form>
+          <legend>Ingresa el número de tu tarjeta de credito</legend>
+          <div>
+            <input type="number" placeholder="Ingresa los 16 digitos de tu TC">
+          </div>
+          <div>
+            <button type="button" id="Siguientevalidar" name="Siguientevalidar">Siguiente</button>
+          </div>
+          <div>
+            <button type="button" id="Paginaprincipal" name="Paginaprincipal">Página principal</button>
+          </div>
+        </Form>
+      </section>
 
-    
 
-    <!--Me faltan los iconos de face, whatsapp etc.-->
-    <footer>
-      © COPYRIGHT 2022 Dulcita de Oro. TODOS LOS DERECHOS RESERVADOS.
-    </footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+      <!--Me faltan los iconos de face, whatsapp etc.-->
+      <footer>
+        <section>
+          <div class="ppagina footer">
+            <p>© COPYRIGHT 2022 Dulcita de Oro. TODOS LOS DERECHOS RESERVADOS.</p>
+         
+            <svg xmlns="http://www.w3.org/2000/svg" class="iconfacebook" width="44"
+              height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7f5345" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="iconinstagram" width="44"
+              height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7f5345" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x="4" y="4" width="16" height="16" rx="4" />
+              <circle cx="12" cy="12" r="3" />
+              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="iconwhatsapp" width="44"
+              height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7f5345" fill="none" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+              <path
+                d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+            </svg>
+          </div>
+        </section>
+      </footer>
+      <script src="index.js" type="module"></script>
+</body>
+
 </html>
