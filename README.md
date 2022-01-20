@@ -30,7 +30,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
+implementar funcionalidad para ocultar todos los adígitos de una tarjeta menos
 los últimos cuatro.
 
 La temática es libre. Tú debes pensar en qué situaciones de la vida real se
