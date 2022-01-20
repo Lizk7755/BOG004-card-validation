@@ -1,4 +1,8 @@
 
+html {
+  font-size: 62.5%;
+}
+
 /* tamaños de las imagenes (temporal)*/
 
 img{
@@ -29,7 +33,7 @@ body{
 .navegacion-principal a{
   color: rgb(27, 40, 51);
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 750;
   font-family: 'Sacramento', cursive;
   padding: .5rem;
@@ -52,6 +56,7 @@ body{
  justify-content: center;
  left: 1rem;
  align-items: center;
+ font-family: 'Kalam', cursive;
 }
 
 
@@ -60,22 +65,22 @@ body{
  }
 
  h1{
-   font-size: 6.5rem;
+   font-size: 8rem;
    font-family: 'Montez', cursive;
    color: rgba(212, 140, 32, 1);
    font-weight: lighter;
-   margin: 220px 60px 0px 80px;
+   margin: 22rem 6rem 0rem 10rem;
   }
 
  h2{
    font-family:'Sacramento', cursive;
-   font-size: 3rem;
-   margin: 0px 0px 100px 400px;
+   font-size: 4rem;
+   margin: 0rem 0rem 10rem 30rem;
  }
 
  .img-home{
-   width: 720px;
-   margin: 90px 50px 100px 0px;
+   width: 72rem;
+   margin: 9rem 5rem 10rem 0rem;
  }
 
 
