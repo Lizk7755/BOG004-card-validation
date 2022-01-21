@@ -7,6 +7,7 @@ html {
 
 img{
   width: 100px;
+  align-content: center;
 }
 
 /* fondo de pantalla */
@@ -18,7 +19,6 @@ body{
   background-repeat: no-repeat;
   margin: 0;
 }
-
 
 .nav-bg{
   background-color: rgba(221, 177, 65, 0.6);
@@ -43,7 +43,6 @@ body{
   background-color: rgb(240, 129, 3);
   border: none;
  }
-
  
 .ppagina {
   background-color: rgba(221, 177, 65, 0.6);
@@ -52,36 +51,101 @@ body{
 }
 
 .footer {
- display:flex;
- justify-content: center;
- left: 1rem;
- align-items: center;
- font-family: 'Kalam', cursive;
+  display:flex;
+  justify-content: center;
+  left: 1rem;
+  align-items: center;
+  font-family: 'Kalam', cursive;
 }
 
-
- header{
-   display: flex;
+.banner-home{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+   
  }
 
  h1{
-   font-size: 8rem;
+   font-size: 600%;
    font-family: 'Montez', cursive;
    color: rgba(212, 140, 32, 1);
    font-weight: lighter;
-   margin: 22rem 6rem 0rem 10rem;
+   margin: 25% -10% 0% 30%;
   }
 
  h2{
    font-family:'Sacramento', cursive;
-   font-size: 4rem;
-   margin: 0rem 0rem 10rem 30rem;
+   font-size: 300%;
+   margin: 0% 0% 5% 54%; /* revisar margenes*/
+   align-content: center;
  }
+
+ h3{
+  font-family:'Kalam', cursive;
+  font-size: 150%;
+  align-content: center;
+}
+.titulos{
+  font-family:'Sacramento', cursive;
+  font-size: 300%;
+  text-align:center;
+}
 
  .img-home{
-   width: 72rem;
-   margin: 9rem 5rem 10rem 0rem;
+   width: 80%;
+   margin: 10% 10% 5% -10%;
  }
 
-/* ajustes página titulada Productos dulcitos */
+ .titulos-home{
+   width: 50%;
+ }
+
+ .espacio-imghome{
+   width: 50%;
+ }
+
+ .servicios{
+   display: flex;
+   justify-content: space-around;
+ }
+
+.img-servicios{
+  align-content: flex-start;
+  margin: 0% 15% 10% 15%;
+}
+
+.contenedor-productos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Kalam', cursive;
+}
+
+.producto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(215, 186, 143, 0.25);
+  border-radius: 20px;
+  }
+
+.producto{
+  text-align: center;
+}
+
+.imagen-productosdulcitos{
+  display: block;
+  margin: auto;
+}
+
+.ceras-de-abeja{
+  display: flex;
+}
+
+
+.botonprecios{
+  display: flex;
+  justify-content: space-around;
+  margin: 3%;
+}
 
