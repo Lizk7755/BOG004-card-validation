@@ -84,7 +84,17 @@ body{
   font-family:'Kalam', cursive;
   font-size: 150%;
   align-content: center;
+  color: rgba(212, 140, 32, 1);
+  text-align: center;
 }
+
+  h4{
+  font-family:'Sacramento', cursive;
+  font-size: 300%;
+  color: rgba(212, 140, 32, 1);
+  text-align: center;
+  }
+
 .titulos{
   font-family:'Sacramento', cursive;
   font-size: 300%;
@@ -104,14 +114,43 @@ body{
    width: 50%;
  }
 
+.contenedor-servicios{
+  display: flex;
+  justify-content: space-around;
+}
+
  .servicios{
    display: flex;
-   justify-content: space-around;
+   flex-direction: column;
+   font-size: 1.3rem;
+   align-items: center;
+   justify-content: center;
  }
 
 .img-servicios{
-  align-content: flex-start;
-  margin: 0% 15% 10% 15%;
+  display: flex;
+  border-radius: 50%;
+  background-color: rgba(215, 186, 143, 0.25);
+  width: 15rem;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.contenedor-puntosdeventa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.punto-venta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  min-height: 250px;
 }
 
 .contenedor-productos{
@@ -119,6 +158,13 @@ body{
   justify-content: space-around;
   align-items: center;
   font-family: 'Kalam', cursive;
+}
+
+.tiendas{
+  width: 15rem;
+  display: flex;
+  background-color: rgba(215, 186, 143, 0.25);
+  border-radius: 5%;
 }
 
 .producto{
