@@ -1,8 +1,13 @@
 
+html {
+  font-size: 62.5%;
+}
+
 /* tamaños de las imagenes (temporal)*/
 
 img{
   width: 100px;
+  align-content: center;
 }
 
 /* fondo de pantalla */
@@ -14,7 +19,6 @@ body{
   background-repeat: no-repeat;
   margin: 0;
 }
-
 
 .nav-bg{
   background-color: rgba(221, 177, 65, 0.6);
@@ -29,7 +33,7 @@ body{
 .navegacion-principal a{
   color: rgb(27, 40, 51);
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 750;
   font-family: 'Sacramento', cursive;
   padding: .5rem;
@@ -39,7 +43,6 @@ body{
   background-color: rgb(240, 129, 3);
   border: none;
  }
-
  
 .ppagina {
   background-color: rgba(221, 177, 65, 0.6);
@@ -48,36 +51,70 @@ body{
 }
 
 .footer {
- display:flex;
- justify-content: center;
- left: 1rem;
- align-items: center;
+  display:flex;
+  justify-content: center;
+  left: 1rem;
+  align-items: center;
+  font-family: 'Kalam', cursive;
 }
 
-
- header{
-   display: flex;
+.banner-home{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+   
  }
 
  h1{
-   font-size: 6.5rem;
+   font-size: 600%;
    font-family: 'Montez', cursive;
    color: rgba(212, 140, 32, 1);
    font-weight: lighter;
-   margin: 220px 60px 0px 80px;
+   margin: 25% -10% 0% 30%;
   }
 
  h2{
    font-family:'Sacramento', cursive;
-   font-size: 3rem;
-   margin: 0px 0px 100px 400px;
+   font-size: 300%;
+   margin: 0% 0% 5% 54%;
+   align-content: center;
  }
+
+ h3{
+  font-family:'Kalam', cursive;
+  font-size: 150%;
+  align-content: center;
+}
+.titulos{
+  font-family:'Sacramento', cursive;
+  font-size: 300%;
+  text-align:center;
+}
 
  .img-home{
-   width: 720px;
-   margin: 90px 50px 100px 0px;
+   width: 80%;
+   margin: 10% 10% 5% -10%;
  }
 
+ .titulos-home{
+   width: 50%;
+ }
 
+ .espacio-imghome{
+   width: 50%;
+ }
 
+ .servicios{
+   display: flex;
+   justify-content: space-around;
+ }
+
+.img-servicios{
+  align-content: flex-start;
+  margin: 0% 15% 10% 15%;
+}
+
+.tiendas{
+  
+}
  

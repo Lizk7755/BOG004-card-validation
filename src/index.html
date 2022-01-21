@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
     <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,201 +10,208 @@
     <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Montez&family=Sacramento&display=swap" rel="stylesheet">
-    <!--Enlace para conectar con archivo css-->
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <!--Enlace con el archivo CSS-->
     <link rel="stylesheet" href="style.css" />
-    <!--Optimizar velocidad de la pagina-->
+    <!--Hacer que la pagina sea mas rapida-->
     <link rel="preload" href="style.css" rel="stylesheet">
-  </head>
-  <body>
-
+</head>
+<body>
+    
     <!--ingreso barra de navegación-->
-<section>
-    <div class="nav-bg">
-      <nav class="navegacion-principal contenedor"> 
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contactos</a>
-       </nav>
+    
+  <nav class="nav-bg">
+    <div class="navegacion-principal contenedor"> 
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Clientes</a>
+      <a href="#">Contactos</a>
     </div>
-</section>   
-     <!--Ventana principal-->
-  
-  <section>
-    <header>
+  </nav>  
+    <!--Ventana principal-->
+    
+  <main>
+
+    <section id="home">
+      <div id="banner" class="banner-home">
+        <header class="titulos-home">
+          <h1 class="titulo-ppal">Dulcita de Oro</h1>
+          <h2 class="subtitulo-ppal">Sabor infinito</h2>
+        </header>
+        <div class="espacio-imghome">
+          <img src="img/imagen principal.png" class="img-home">
+        </div>
+      </div>
+      <div id="servicios" class="servicios">
+        <div>
+          <h3>Productos Dulcitos</h3> 
+          <a href="#"><img src="img/productos.png" class="img-servicios"></a>
+        </div>    
+        <div>
+          <h3>Puntos de venta</h3> 
+          <a href="#"></a><img src="img/puntos de venta.png" class="img-servicios"></a>
+        </div>
+        <div>
+          <h3>Panal de pagos</h3>
+          <a href="#"><img src="img/pagos.png" class="img-servicios"></a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="productos">
+    
+      <div class="titulo-productos">
+        <img src="img/abeja (1).png">
+        <h2>Productos Dulcitos</h2>
+      </div>
+
+      <div class="contenedor-productos">
+
+        <div class="producto">
+          <p>Miel de abejas 500 g</p>
+          <img
+            src="img/kisspng-marmalade-honey-jar-stock-photography-royalty-free-5b06d5c23fb837.071006701527174594261.png">
+          <img src="img/cera-de-abejas.png">
+          <button type="button" id="Valor1" name="PrecioMiel">$ 30.000</button>
+        </div>
+
+        <div class="producto">
+          <p>Jalea Real 20 g</p>
+          <img src="img/kisspng-royal-jelly-jar-glass-royal-jelly-jars-yard-5a8ffc6209b726.6470615415193856980398.png">
+          <img src="img/cera-de-abejas.png">
+          <button type="button" id="Valor2" name="PrecioJalea">$ 40.000</button>
+        </div>
+
+        <div class="producto">
+          <p>Polen 200 g</p>
+          <img src="img/kisspng-honey-bee-logo-european-dark-bee-5af6cb587a5b65.7478858615261233525012.png">
+          <img src="img/cera-de-abejas.png">
+          <button type="button" id="Valor3" name="PrecioPolen">$ 20.000</button>
+        </div>
+      
+        <div class="producto">
+          <p>Cereal con Miel 1000 g</p>
+          <img
+            src="img/kisspng-breakfast-cereal-corn-flakes-frosted-flakes-muesli-cereal-5abca53f43f5d3.1427623715223125112784.png">
+          <img src="img/cera-de-abejas.png">
+          <button type="button" id="Valor4" name="PrecioCereal">$ 25.000</button>
+        </div>
+      
+        <div class="btns-producto">
+          <button type="button" id="Carrito" name="Carrito">Añadir al Carrito</button>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44"
+            viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="6" cy="19" r="2" />
+            <circle cx="17" cy="19" r="2" />
+            <path d="M17 17h-11v-14h-2" />
+            <path d="M6 5l14 1l-1 7h-13" />
+          </svg>
+          <button type="button" id="Pagos" name="Panaldepagos">
+            Panal de Pagos
+          </button>
+          <input type="submit" value="Pagina principal">
+        </div>        
+      </div>
+    </section>
+
+    <section id="puntos-de-venta">
+      <h2>Puntos de venta</h2>
       <div>
-      <h1>Dulcita de Oro</h1>
-      <h2>Sabor infinito</h2>
+        <p>Bogotá</p>
+        <img src="img/tienda.png" class="tiendas">
       </div>
       <div>
-      <img src="img/imagen principal.png" class="img-home">
-    </div>
-    </header>
-    <main>
-      <section>
-        <div>
-          <a href="#"><span>Productos Dulcitos</span> <span><img src="img/productos.png"></span></a>
-        </div>
-      </section>
-      <section>
-        <div>
-          <a href="#"><span>Puntos de venta</span> <span><img src="img/puntos de venta.png"></span></a>
-        </div>
-      </section>
-      <section>
-        <div>
-          <a href="#"><span>Panal de pagos</span><span><img src="img/pagos.png"></span> </a>
-        </div>
-      </section>
-    </main>
-  </section>
-
-  <div>
-
-    <img src="img/abeja (1).png">
-    <h2>Productos Dulcitos</h2>
-
-    <section>
-      <p>Miel de abejas 500 g</p>
-      <img
-        src="img/kisspng-marmalade-honey-jar-stock-photography-royalty-free-5b06d5c23fb837.071006701527174594261.png">
-      <img src="img/cera-de-abejas.png">
-      <button type="button" id="Valor1" name="PrecioMiel">$ 30.000</button>
-    </section>
-
-    <section>
-      <p>Jalea Real 20 g</p>
-      <img src="img/kisspng-royal-jelly-jar-glass-royal-jelly-jars-yard-5a8ffc6209b726.6470615415193856980398.png">
-      <img src="img/cera-de-abejas.png">
-      <button type="button" id="Valor2" name="PrecioJalea">$ 40.000</button>
-    </section>
-
-    <section>
-      <p>Polen 200 g</p>
-      <img src="img/kisspng-honey-bee-logo-european-dark-bee-5af6cb587a5b65.7478858615261233525012.png">
-      <img src="img/cera-de-abejas.png">
-      <button type="button" id="Valor3" name="PrecioPolen">$ 20.000</button>
-    </section>
-
-    <section>
-      <p>Cereal con Miel 1000 g</p>
-      <img
-        src="img/kisspng-breakfast-cereal-corn-flakes-frosted-flakes-muesli-cereal-5abca53f43f5d3.1427623715223125112784.png">
-      <img src="img/cera-de-abejas.png">
-      <button type="button" id="Valor4" name="PrecioCereal">$ 25.000</button>
-    </section>
-
-    <section>
-      <button type="button" id="Carrito" name="Carrito">Añadir al Carrito</button>
-      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44"
-        viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <circle cx="6" cy="19" r="2" />
-        <circle cx="17" cy="19" r="2" />
-        <path d="M17 17h-11v-14h-2" />
-        <path d="M6 5l14 1l-1 7h-13" />
-      </svg>
-    </section>
-    <section>
-      <button type="button" id="Pagos" name="Panaldepagos">Panal de Pagos</button>
-    </section>
-    <input type="submit" value="Pagina principal">
-  </div>
-
-  <div>
-    <h2>Puntos de venta</h2>
-    <section>
-      <p>Bogotá</p>
-      <img src="img/tienda.png">
-    </section>
-    <section>
-      <p>Armenia</p>
-      <img src="img/tienda.png">
-    </section>
-    <section>
-      <p>Pasto</p>
-      <img src="img/tienda.png">
-    </section>
-    <section>
-      <p>Medellín</p>
-      <img src="img/tienda.png">
-    </section>
-    <section>
-      <p>Cali</p>
-      <img src="img/tienda.png">
-    </section>
-    <input type="submit" value="Pagina principal">
-  </div>
-
-  <section>
-    <h2>Panal de pagos</h2>
-    <form>
-
-      <fieldset>
-        <legend>Por favor ingresa los siguientes datos</legend>
-        <div>
-          <label> E-mail</label>
-          <input type="email" placeholder="Ingresa tu e-mail">
-        </div>
-
-        <div>
-          <label> Nombre completo</label>
-          <input type="text" placeholder="Nombre y apellidos">
-        </div>
-
-        <div>
-          <label> Documento de identidad</label>
-          <input type="text" placeholder="Documento de identidad">
-        </div>
-
-        <div>
-          <label> Telefono de contacto</label>
-          <input type="tel" placeholder="Telefono/movil">
-        </div>
-
-        <div>
-          <input type="submit" value="Siguiente">
-        </div>
-
-      </fieldset>
-    </Form>
-    <div>
+        <p>Armenia</p>
+        <img src="img/tienda.png" class="tiendas">
+      </div>
+      <div>
+        <p>Pasto</p>
+        <img src="img/tienda.png" class="tiendas">
+      </div>
+      <div>
+        <p>Medellín</p>
+        <img src="img/tienda.png" class="tiendas">
+      </div>
+      <div>
+        <p>Cali</p>
+        <img src="img/tienda.png" class="tiendas">
+      </div>
       <input type="submit" value="Pagina principal">
-    </div>
-  </section>
+    </section>
 
-  <section>
-
-    <div>
+    <section id="formulario-panal">
       <h2>Panal de pagos</h2>
-      <img src="img/abeja.png">
-      <h3>Validemos tu tarjeta de credito</h3>
-      <img
-        src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png">
-      <img
-        src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png">
-    </section> 
-    
-    <section>
-        <Form>
-          <legend>Ingresa el número de tu tarjeta de credito</legend>
+      <form>
+  
+        <fieldset>
+          <legend>Por favor ingresa los siguientes datos</legend>
           <div>
-            <input type="number" placeholder="Ingresa los 16 digitos de tu TC">
+            <label> E-mail</label>
+            <input type="email" placeholder="Ingresa tu e-mail">
           </div>
+  
           <div>
-            <button type="button" id="Siguientevalidar" name="Siguientevalidar">Siguiente</button>
+            <label> Nombre completo</label>
+            <input type="text" placeholder="Nombre y apellidos">
           </div>
+  
           <div>
-            <button type="button" id="Paginaprincipal" name="Paginaprincipal">Página principal</button>
+            <label> Documento de identidad</label>
+            <input type="text" placeholder="Documento de identidad">
           </div>
-        </Form>
-      </section>
+  
+          <div>
+            <label> Telefono de contacto</label>
+            <input type="tel" placeholder="Telefono/movil">
+          </div>
+  
+          <div>
+            <input type="submit" value="Siguiente">
+          </div>
+  
+        </fieldset>
+      </Form>
+      <div>
+        <input type="submit" value="Pagina principal">
+      </div>
+    </section>
 
+    <section id="validacion-panal">
 
+      <div>
+        <h2>Panal de pagos</h2>
+        <img src="img/abeja.png">
+        <h3>Validemos tu tarjeta de credito</h3>
+        <img
+          src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png">
+        <img
+          src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png">
+      </div> 
+      
+      <div>
+          <Form>
+            <legend>Ingresa el número de tu tarjeta de credito</legend>
+            <div>
+              <input type="number" placeholder="Ingresa los 16 digitos de tu TC" id="digitostarjeta">
+            </div>
+            <div>
+              <button type="button" id="Siguientevalidar" name="Siguientevalidar">Siguiente</button>
+            </div>
+            <div>
+              <button type="button" id="Paginaprincipal" name="Paginaprincipal">Página principal</button>
+            </div>
+          </Form>
+      </div>    
+    </section>
 
+  </main>
+ 
       <!--Me faltan los iconos de face, whatsapp etc.-->
-      <footer>
+    <footer>
         <section>
           <div class="ppagina footer">
             <p>© COPYRIGHT 2022 Dulcita de Oro. TODOS LOS DERECHOS RESERVADOS.</p>
@@ -234,8 +242,7 @@
             </svg>
           </div>
         </section>
-      </footer>
-      <script src="index.js" type="module"></script>
+    </footer>
+    <script src="index.js" type="module"></script>
 </body>
-
 </html>
