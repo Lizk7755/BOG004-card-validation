@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarjeta de crédito válida</title>
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Montez&display=swap" rel="stylesheet">
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Montez&family=Sacramento&display=swap" rel="stylesheet">
-    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
     <!--Enlace con el archivo CSS-->
@@ -44,16 +44,17 @@
           <img src="img/imagen principal.png" class="img-home">
         </div>
       </div>
-      <div id="servicios" class="servicios">
-        <div>
+      <div id="home-servicios" class="contenedor-servicios">
+        
+        <div class="servicios">
           <h3>Productos Dulcitos</h3> 
           <a href="#"><img src="img/productos.png" class="img-servicios"></a>
         </div>    
-        <div>
+        <div class="servicios">
           <h3>Puntos de venta</h3> 
-          <a href="#"></a><img src="img/puntos de venta.png" class="img-servicios"></a>
+          <a href="#"><img src="img/puntos de venta.png" class="img-servicios"></a>
         </div>
-        <div>
+        <div class="servicios">
           <h3>Panal de pagos</h3>
           <a href="#"><img src="img/pagos.png" class="img-servicios"></a>
         </div>
@@ -62,9 +63,9 @@
     
     <section id="productos">
     
-      <div class="titulo-productos">
+      <div>
         <img src="img/abeja (1).png">
-        <h2>Productos Dulcitos</h2>
+        <h4>Productos Dulcitos</h4>
       </div>
 
       <div class="contenedor-productos">
@@ -98,53 +99,54 @@
           <img src="img/cera-de-abejas.png">
           <button type="button" id="Valor4" name="PrecioCereal">$ 25.000</button>
         </div>
-      
-        <div class="btns-producto">
-          <button type="button" id="Carrito" name="Carrito">Añadir al Carrito</button>
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44"
-            viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <circle cx="6" cy="19" r="2" />
-            <circle cx="17" cy="19" r="2" />
-            <path d="M17 17h-11v-14h-2" />
-            <path d="M6 5l14 1l-1 7h-13" />
-          </svg>
-          <button type="button" id="Pagos" name="Panaldepagos">
-            Panal de Pagos
-          </button>
-          <input type="submit" value="Pagina principal">
-        </div>        
+              
+      </div>
+      <div class="btns-producto">
+        <button type="button" id="Carrito" name="Carrito">Añadir al Carrito</button>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44"
+          viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="6" cy="19" r="2" />
+          <circle cx="17" cy="19" r="2" />
+          <path d="M17 17h-11v-14h-2" />
+          <path d="M6 5l14 1l-1 7h-13" />
+        </svg>
+        <button type="button" id="Pagos" name="Panaldepagos">
+          Panal de Pagos
+        </button>
+        <input type="submit" value="Pagina principal">
       </div>
     </section>
 
     <section id="puntos-de-venta">
-      <h2>Puntos de venta</h2>
-      <div>
-        <p>Bogotá</p>
+      <h4>Puntos de venta</h4>
+    <div class="contenedor-puntosdeventa">
+      <div class="punto-venta">
+        <h3>Bogotá</h3>
         <img src="img/tienda.png" class="tiendas">
       </div>
-      <div>
-        <p>Armenia</p>
+      <div class="punto-venta">
+        <h3>Armenia</h3>
         <img src="img/tienda.png" class="tiendas">
       </div>
-      <div>
-        <p>Pasto</p>
+      <div class="punto-venta">
+        <h3>Pasto</h3>
         <img src="img/tienda.png" class="tiendas">
       </div>
-      <div>
-        <p>Medellín</p>
+      <div class="punto-venta">
+        <h3>Medellín</h3>
         <img src="img/tienda.png" class="tiendas">
       </div>
-      <div>
-        <p>Cali</p>
+      <div class="punto-venta">
+        <h3>Cali</h3>
         <img src="img/tienda.png" class="tiendas">
       </div>
-      <input type="submit" value="Pagina principal">
+    </div> 
     </section>
 
     <section id="formulario-panal">
-      <h2>Panal de pagos</h2>
+      <h4>Panal de pagos</h4>
       <form>
   
         <fieldset>
@@ -183,9 +185,9 @@
     <section id="validacion-panal">
 
       <div>
-        <h2>Panal de pagos</h2>
+        <h4>Panal de pagos</h4>
         <img src="img/abeja.png">
-        <h3>Validemos tu tarjeta de credito</h3>
+        <p>Validemos tu tarjeta de credito</p>
         <img
           src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png">
         <img
