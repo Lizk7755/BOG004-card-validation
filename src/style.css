@@ -177,7 +177,9 @@ body{
   padding: 40px;
   }
 
-.producto{
+
+
+  .producto{
   text-align: center;
   font-weight: 900;
   font-size: 20px;
@@ -186,6 +188,7 @@ body{
 .imagen-productosdulcitos{
   display: block;
   margin: auto;
+  width: 10rem;
 }
 
 .botonprecios{
@@ -291,5 +294,68 @@ justify-content: center;
 
 /* pagina final validacion tarjeta*/
 
+.formulario-datospersonales{
+background-color: rgba(215, 186, 143, 0.25);
+width: min( 60rem,100% );
+margin: auto;
+padding: 2rem;
+border-radius: 1rem;
+}
+
+.formulario-datospersonales fieldset{
+border: none;
+}
+
+.formulario-datospersonales legend{
+  text-align: center;
+  font-size: 1.8rem;
+  font-family:'Kalam', cursive;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1rem 1rem;
+  }
+  
+.campo{
+  display: flex;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.campo label{
+  font-weight: bold;
+  display: block;
+  font-family:'Kalam', cursive;
+  font-size: 1.5;
+  min-width: 163px;
+  margin: 0px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.campo input{
+  width: 100%;
+ height: 2.5rem;
+ border: none;
+ border-radius: 5px;
+ padding: 1rem;
+}
+
+.contenedor-btn{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.boton-siguiente{
+  background-color: rgba(113, 146, 59, 0.77);
+  color: white;
+  padding: 1rem 3rem;
+  font-size: 2rem;
+  font-family: 'Montez', cursive;
+  border-radius: .5rem;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
 
 
