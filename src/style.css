@@ -158,6 +158,7 @@ body{
   justify-content: space-around;
   align-items: center;
   font-family: 'Kalam', cursive;
+ 
 }
 
 .tiendas{
@@ -173,10 +174,13 @@ body{
   justify-content: center;
   background-color: rgba(215, 186, 143, 0.25);
   border-radius: 20px;
+  padding: 40px;
   }
 
 .producto{
   text-align: center;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .imagen-productosdulcitos{
@@ -184,14 +188,108 @@ body{
   margin: auto;
 }
 
-.ceras-de-abeja{
-  display: flex;
-}
-
-
 .botonprecios{
   display: flex;
   justify-content: space-around;
   margin: 3%;
+  
 }
+
+.cera-1{
+  display: block;
+  position: absolute;
+  margin: 150px 0px 0px 120px;
+  }
+
+.cera-2{
+  display: block;
+  position: absolute;
+  margin: 0px 10px 200px 100px;
+}
+
+.cera-3{
+  display: block;
+  position: absolute;
+  margin: 150px 0px 0px 100px;
+}
+
+.cera-4{
+  display: block;
+  position: absolute;
+  margin: 0px 10px 200px 130px;
+}
+
+.pagina2titulo{
+display: flex;
+justify-content: center;
+}
+
+.abejapagina2{
+  position: absolute;
+  margin: 15px 0px 0px -200px;
+}
+
+.seleccionmiel{
+  background-color: rgba(244, 228, 79, 0.61);
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-family: kalam;
+}
+
+.seleccionjalea{
+  background-color: rgba(244, 228, 79, 0.61);
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-family: kalam;
+}
+
+.seleccionpolen{
+  background-color: rgba(244, 228, 79, 0.61);
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-family: kalam;
+}
+
+.seleccioncereal{
+  background-color: rgba(244, 228, 79, 0.61);
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  font-family: kalam;
+}
+
+.btns-producto{
+  display: flex;
+  flex-direction: column;
+   
+}
+
+#Carrito{
+  margin: auto;
+  padding: 15px;
+  background-color:rgba(113, 146, 59, 0.77);
+  border-radius: 20px;
+  font-family: Sacramento;
+  font-size: large;
+  color: aliceblue;
+}
+
+#Pagos{
+  padding: 15px;
+  margin: 20px 600px 20px;
+  background-color:rgba(113, 146, 59, 0.77);
+  border-radius: 20px;
+  font-family: Sacramento;
+  font-size: large;
+  color: aliceblue;
+  
+}
+
+.iconcarrito{
+  position: absolute;
+  margin: 0px 0px 0px 550px;
+}
+
+/* pagina final validacion tarjeta*/
+
+
 

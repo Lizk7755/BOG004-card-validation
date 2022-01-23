@@ -13,8 +13,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Sacramento&display=swap" rel="stylesheet">
     <!--Enlace con el archivo CSS-->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />  
     <!--Hacer que la pagina sea mas rapida-->
     <link rel="preload" href="style.css" rel="stylesheet">
 </head>
@@ -63,58 +66,56 @@
     
     <section id="productos">
     
-      <div>
-        <img src="img/abeja (1).png">
+      <div class="pagina2titulo">
+        <img src="img/abeja (1).png" class="abejapagina2">
         <h4>Productos Dulcitos</h4>
       </div>
 
       <div class="contenedor-productos">
 
         <div class="producto">
-          <p>Miel de abejas 500 g</p>
+          <p class="tituloproductos">Miel de abejas </p>
+          <p>500 g</p>
           <img
             src="img/kisspng-marmalade-honey-jar-stock-photography-royalty-free-5b06d5c23fb837.071006701527174594261.png" class="imagen-productosdulcitos">
-          
+            <img src="img/cera-de-abejas.png" class="cera-1">
         </div>
        
         <div class="producto">
-          <p>Jalea Real 20 g</p>
+          <p class="tituloproductos">Jalea Real</p>
+          <p>20 g</p>
           <img src="img/kisspng-royal-jelly-jar-glass-royal-jelly-jars-yard-5a8ffc6209b726.6470615415193856980398.png" class="imagen-productosdulcitos">
-          
+          <img src="img/cera-de-abejas.png" class="cera-2">
         </div>
        
         <div class="producto">
-          <p>Polen 200 g</p>
+          <p class="tituloproductos">Polen </p>
+          <p>200 g</p>
           <img src="img/kisspng-honey-bee-logo-european-dark-bee-5af6cb587a5b65.7478858615261233525012.png" class="imagen-productosdulcitos">
-          
+          <img src="img/cera-de-abejas.png" class="cera-3">
         </div>
             
         <div class="producto">
-          <p>Cereal con Miel 1000 g</p>
+          <p class="tituloproductos">Cereal con Miel </p>
+          <p>1000 g</p>
           <img src="img/kisspng-breakfast-cereal-corn-flakes-frosted-flakes-muesli-cereal-5abca53f43f5d3.1427623715223125112784.png" class="imagen-productosdulcitos">
-          
-        </div>
-
-        <div class="ceras-de-abeja">
-          <img src="img/cera-de-abejas.png" class="cera-1">
-          <img src="img/cera-de-abejas.png" class="cera-2">
-          <img src="img/cera-de-abejas.png" class="cera-3">
           <img src="img/cera-de-abejas.png" class="cera-4">
         </div>
-        
+
+                
       </div>
       
         <div class="botonprecios">
-          <button type="button" id="Valor1" name="PrecioMiel">$ 30.000</button>
-          <button type="button" id="Valor2" name="PrecioJalea">$ 40.000</button>
-          <button type="button" id="Valor3" name="PrecioPolen">$ 20.000</button>
-          <button type="button" id="Valor4" name="PrecioCereal">$ 25.000</button>
+          <label class="seleccionmiel"><input type="checkbox" id="seleccionproductomiel" value="productomiel">$30.000</label>
+          <label class="seleccionjalea"><input type="checkbox" id="seleccionproductojalea" value="productojalea">$40.000</label>
+          <label class="seleccionpolen"><input type="checkbox" id="seleccionproductopolen" value="productopolen">$20.000</label>
+          <label class="seleccioncereal"><input type="checkbox" id="seleccionproductocereal" value="productocereal">$30.000</label>
         </div>
       
       
         <div class="btns-producto">
           <button type="button" id="Carrito" name="Carrito">Añadir al Carrito</button>
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44"
+          <svg xmlns="http://www.w3.org/2000/svg" class="iconcarrito" width="44" height="44"
             viewBox="0 0 24 24" stroke-width="2" stroke="#7f5345" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -123,10 +124,8 @@
             <path d="M17 17h-11v-14h-2" />
             <path d="M6 5l14 1l-1 7h-13" />
           </svg>
-          <button type="button" id="Pagos" name="Panaldepagos">
-            Panal de Pagos
-          </button>
-          <input type="submit" value="Pagina principal">
+          <button type="button" id="Pagos" name="Panaldepagos">Panal de Pagos</button>
+          
         </div>        
       
     </section>
@@ -198,27 +197,25 @@
 
       <div>
         <h4>Panal de pagos</h4>
-        <img src="img/abeja.png">
+        <img src="img/abeja.png" class="abejitapagos">
+      </div>
+      <div>
         <p>Validemos tu tarjeta de credito</p>
-        <img
-          src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png">
-        <img
-          src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png">
+        <img src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png" class="imagentarjeta">
+        <img src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png" class="operadortarjeta">
+        <legend>Ingresa el número de tu tarjeta de credito</legend>
+        <input type="number" placeholder="Ingresa los 16 digitos de tu TC" id="digitostarjeta">
       </div> 
       
       <div>
-          <Form>
-            <legend>Ingresa el número de tu tarjeta de credito</legend>
-            <div>
-              <input type="number" placeholder="Ingresa los 16 digitos de tu TC" id="digitostarjeta">
-            </div>
+            
             <div>
               <button type="button" id="Siguientevalidar" name="Siguientevalidar">Siguiente</button>
             </div>
             <div>
               <button type="button" id="Paginaprincipal" name="Paginaprincipal">Página principal</button>
             </div>
-          </Form>
+            
       </div>    
     </section>
 
