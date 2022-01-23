@@ -34,7 +34,7 @@
     
   <main>
 
-    <section id="home">
+    <section id="home" class="hidden">
       <div id="banner" class="banner-home">
         <header class="titulos-home">
           <h1 class="titulo-ppal">Dulcita de Oro</h1>
@@ -61,7 +61,7 @@
       </div>
     </section>
     
-    <section id="productos">
+    <section id="productos" class="hidden">
     
       <div>
         <img src="img/abeja (1).png">
@@ -131,70 +131,70 @@
       
     </section>
 
-    <section id="puntos-de-venta">
+    <section id="puntos-de-venta" class="hidden">
       <h4>Puntos de venta</h4>
     <div class="contenedor-puntosdeventa">
       <div class="punto-venta">
         <h3>Bogotá</h3>
-        <img src="img/tienda.png" class="tiendas">
+        <a href="#"><img src="img/tienda.png" class="tiendas"></a>
       </div>
       <div class="punto-venta">
         <h3>Armenia</h3>
-        <img src="img/tienda.png" class="tiendas">
+        <a href="#"><img src="img/tienda.png" class="tiendas"></a>
       </div>
       <div class="punto-venta">
         <h3>Pasto</h3>
-        <img src="img/tienda.png" class="tiendas">
+        <a href="#"><img src="img/tienda.png" class="tiendas"></a>
       </div>
       <div class="punto-venta">
         <h3>Medellín</h3>
-        <img src="img/tienda.png" class="tiendas">
+        <a href="#"><img src="img/tienda.png" class="tiendas"></a>
       </div>
       <div class="punto-venta">
         <h3>Cali</h3>
-        <img src="img/tienda.png" class="tiendas">
+        <a href="#"><img src="img/tienda.png" class="tiendas"></a>
       </div>
     </div> 
     </section>
 
-    <section id="formulario-panal">
+    <section id="formulario-panal" >
       <h4>Panal de pagos</h4>
-      <form>
-  
+
+      <form class="formulario-datospersonales">
         <fieldset>
           <legend>Por favor ingresa los siguientes datos</legend>
-          <div>
+        <div class="contenedor-campos">
+          <div class="campo">
             <label> E-mail</label>
             <input type="email" placeholder="Ingresa tu e-mail">
           </div>
   
-          <div>
+          <div class="campo">
             <label> Nombre completo</label>
             <input type="text" placeholder="Nombre y apellidos">
           </div>
   
-          <div>
+          <div class="campo">
             <label> Documento de identidad</label>
             <input type="text" placeholder="Documento de identidad">
           </div>
   
-          <div>
+          <div class="campo">
             <label> Telefono de contacto</label>
             <input type="tel" placeholder="Telefono/movil">
           </div>
-  
-          <div>
-            <input type="submit" value="Siguiente">
+        </div> 
+
+          <div class="contenedor-btn">
+            <a href="#"><input type="submit" value="Siguiente" class="boton-siguiente"></a>
           </div>
-  
+        
         </fieldset>
       </Form>
-      <div>
-        <input type="submit" value="Pagina principal">
-      </div>
+
     </section>
 
-    <section id="validacion-panal">
+    <section id="validacion-panal" class="hidden">
 
       <div>
         <h4>Panal de pagos</h4>
