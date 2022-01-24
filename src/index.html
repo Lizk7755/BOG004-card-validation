@@ -19,7 +19,7 @@
     <!--Enlace con el archivo CSS-->
     <link rel="stylesheet" href="style.css" />  
     <!--Hacer que la pagina sea mas rapida-->
-    <link rel="preload" href="style.css" rel="stylesheet">
+    <link rel="preload" href="style.css" >
 </head>
 <body>
     
@@ -189,7 +189,7 @@
           </div>
         
         </fieldset>
-      </Form>
+      </form>
 
     </section>
 
@@ -203,9 +203,25 @@
         <p class="textovalidacion">Validemos tu tarjeta de credito</p>
         <img src="img/kisspng-scalable-vector-graphics-credit-card-debit-card-co-5b6344e4822902.8284825115332323565332.png" class="imagentarjeta">
         <img src="img/kisspng-credit-card-debit-card-american-express-payment-visa-credit-card-logo-5b4c7c629b2651.7343471715317392346355.png" class="operadortarjeta">
-        <p class="indicaciontarjetadecredito">Ingresa el número de tu tarjeta de credito</p>
-        <input type="number" placeholder="Ingresa los 16 digitos de tu TC" id="digitostarjeta" class="ingresonumerodetarjeta">
-        <button type="button" id="siguientevalidar" class="siguientevalidartarjeta" name="siguientevalidar"> Siguiente</button>
+        <p class="indicaciontarjetadecredito">
+          Ingresa el número de tu tarjeta de credito
+        </p>
+        <input 
+          type="text" 
+          placeholder="Ingresa los 16 digitos de tu TC" 
+          id="digitostarjeta" 
+          class="ingresonumerodetarjeta" 
+          maxlength="16"
+        />
+        <button 
+          type="button" 
+          id="siguientevalidar" 
+          class="siguientevalidartarjeta" 
+          name="siguientevalidar"
+          
+        > 
+          Siguiente
+        </button>
       </div> 
     </section>
 
