@@ -45,13 +45,26 @@ const validator = {
     }
 
     if(sumaDigitos%10 === 0) esValido = true
+
+ /*   if(esvalido===true)*/
     
     alert(esValido)
 
     return esValido
 
   },
-  maskify: function(){},
-};
+  
+  maskify: function(creditCardNumber){
+  
+    if (creditCardNumber.length <10) return creditCardNumber;
+	const last4Characters = creditCardNumber.substr(-4);
+	const maskingCharacters = creditCardNumber.substr(0, creditCardNumber.length - 5).replace(/\d/g, '#');
+	return `${maskingCharacters}${last4Characters}`;
+  
+  console.log(`${maskingCharacters}${last4Characters}`);
+  },
+  };
 
-export default validator;
+
+  export default validator;
+  
