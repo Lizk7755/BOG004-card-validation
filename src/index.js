@@ -1,11 +1,14 @@
+/* eslint-disable no-debugger */
 /* eslint-disable no-console */
-import validator from './validator.js';
 
-function traerNroTarjeta() {
-  let valor=document.getElementById("digitostarjeta").value;	
-  console.log("valor:",valor)
-}
+import validator from './validator.js';
 
 document.getElementById("siguientevalidar").addEventListener("click",traerNroTarjeta)
 
-console.log(validator);
+function traerNroTarjeta() {
+  let creditCardNumber = document.getElementById("digitostarjeta").value;	
+
+  validator.isValid(creditCardNumber)  
+}
+
+
