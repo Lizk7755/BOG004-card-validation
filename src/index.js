@@ -8,7 +8,8 @@ document.getElementById("siguientevalidar").addEventListener("click",traerNroTar
 function traerNroTarjeta() {
   let creditCardNumber = document.getElementById("digitostarjeta").value;	
 
-  validator.isValid(creditCardNumber)  
+  validator.isValid(creditCardNumber)
+  validator.maskify(creditCardNumber)  
 }
 
 
