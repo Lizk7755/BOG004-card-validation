@@ -14,7 +14,7 @@ img{
 body{
   font-size: 16px;  
   background-image: url("img/hojas.png");
-  background-size: 100% 25%;
+  background-size: 100% 700px;
   background-position: 0 -7rem;
   background-repeat: no-repeat;
   margin: 0;
@@ -94,6 +94,11 @@ body{
   color: rgba(212, 140, 32, 1);
   text-align: center;
   }
+
+main{
+  min-height: 75vh;
+  margin-bottom: 3rem;
+}
 
 .titulos{
   font-family:'Sacramento', cursive;

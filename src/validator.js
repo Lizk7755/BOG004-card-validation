@@ -19,7 +19,7 @@ const validator = {
     //Otra alternativa en una sola linea para retornar los datos invertidos
     //console.log(nroTarjeta.split("").reverse())
 
-    for(let i = 0; i < nroTarjetaInvertido.length; i++){
+    for(let i = 0; i <= nroTarjetaInvertido.length - 1; i++){
       if((i+1) % 2 === 0){
         doble = nroTarjetaInvertido[i] * 2
         if(doble >= 10) {
